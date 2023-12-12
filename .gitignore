@@ -3,3 +3,4 @@ x64/
 String.vcxproj.filters
 String.vcxproj.user
 *.exe
+.vs/
