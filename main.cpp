@@ -9,6 +9,7 @@ int main() {
 	std::cout << s.size();
 	//String s1("Hello, World!");
 	//std::cout << s1.c_str() << std::endl;
+	//Hello
 
 	return 0;
 }
