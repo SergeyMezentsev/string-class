@@ -6,13 +6,13 @@
 
 class String {
 private:
-	int sz = 0;
+	size_t sz = 0;
 	char* str = nullptr;
 
 public:
 	// Constructors
-	String(const char* str);
 	String();
+	String(const char* str);
 	String(const char*, size_t);
 	String(size_t n, char c);
 	String(std::initializer_list<char> il);
@@ -36,6 +36,7 @@ public:
 
 	//Methods
 	const char* c_str() const;
+	const size_t len() const;
 
 };
 
